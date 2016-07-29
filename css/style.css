@@ -1,0 +1,190 @@
+body, html {
+    height: 100%;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+nav.pinned {
+    position: fixed;
+    top: 0;
+    color: white;
+    background-color: #b39ddb;
+    transition: 0.3s ease background-color;
+    -webkit-transition: 0.2s ease background-color;
+}
+
+.navbar-wrapper {
+    height: 3rem;
+}
+
+.navbar {
+    text-align: center;
+}
+
+/* Header
+------------------------------------------------------------ */
+
+.hero {
+    height: 100%;
+    background-color: #b39ddb;
+    cursor: default;
+}
+
+.hero h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 25%;
+    z-index: 2;
+}
+
+.hero h6 {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.circle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-image: url(/img/caro.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+}
+
+.links {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-left: -40px;
+    z-index: 2;
+}
+
+.links li {
+    display: inline;
+    color: white;
+    padding: 0px 10px;
+    font-size: 30px;
+}
+
+.arrow {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+}
+
+.content a, b {
+    font-weight: bold;
+}
+
+/* About
+------------------------------------------------------------ */
+
+#about-me {
+    text-align: center;
+}
+
+#about-me a {
+    color: #F4ACB7;
+}
+
+/* Projects
+------------------------------------------------------------ */
+
+#projects {
+    text-align: center;
+    background: #ede7f6;
+}
+
+#projects p {
+    padding-bottom: 20px;
+}
+
+#projects img {
+    width: 80%;
+    height: auto;
+}
+
+/* Experience
+------------------------------------------------------------ */
+
+#experience {
+    text-align: center;
+    background: #ffffff;
+}
+
+/* Effects
+------------------------------------------------------------ */
+
+.grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.grow:hover,
+.grow:focus,
+.grow:active {
+    transform: scale(1.5);
+}
+
+/* Mobile
+------------------------------------------------------------ */
+@media only screen and (max-width: 980px) {
+
+    .hero h1 {
+        font-size: 30px;
+        padding-top: 30rem;
+    }
+
+    .arrow {
+        padding: 1rem;
+    }
+
+    .links li {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+
+    .links ul {
+        margin: 1rem 0;
+    }
+
+    #projects img {
+        width: 100%;
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    .navbar-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .hero h1 {
+        font-size: 30px;
+        padding-top: 17rem;
+    }
+}

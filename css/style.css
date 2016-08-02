@@ -11,7 +11,7 @@ nav.pinned {
     position: fixed;
     top: 0;
     color: white;
-    background-color: #b39ddb;
+    background-color: #7B52AB;
     transition: 0.3s ease background-color;
     -webkit-transition: 0.2s ease background-color;
 }
@@ -29,7 +29,7 @@ nav.pinned {
 
 .hero {
     height: 100%;
-    background-color: #b39ddb;
+    background-color: #7B52AB;
     cursor: default;
 }
 
@@ -103,7 +103,7 @@ nav.pinned {
 }
 
 #about-me a {
-    color: #F4ACB7;
+    color: #f06292;
 }
 
 /* Skills
@@ -130,7 +130,6 @@ nav.pinned {
     width: 80%;
     height: auto;
 }
-
 
 
 

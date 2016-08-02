@@ -90,6 +90,11 @@ nav.pinned {
     font-weight: bold;
 }
 
+.chart-aptitudes {
+    width: 90% !important;
+    height: 90% !important;
+}
+
 /* About
 ------------------------------------------------------------ */
 

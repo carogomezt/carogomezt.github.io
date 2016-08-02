@@ -38,8 +38,9 @@
                     <ul>
                         <li><a href="#main"><p>Carolina Gomez T</p></a></li>
                         <li><a href="#about-me"><p>About Me</p></a></li>
+                        <li><a href="#skills"><p>Skills</p></a></li>
+                        <li><a href="#achievements"><p>Achievements</p></a></li>
                         <li><a href="#projects"><p>Projects</p></a></li>
-                        <li><a href="#experience"><p>Experience</p></a></li>
                     </ul>
                 </div>
             </nav>
@@ -47,6 +48,115 @@
         <section id="about-me">
             <div class="content">
                 <h2>About Me</h2>
+                <p>I'm a student of System and Computer Engineering at Universidad Tecnologica de Pereira,
+                  I'll graduate in 2017. Since 2014 I participate in competitive programming marathons,
+                  which made me improve my logical thinking. I have knowledge about web development specifically in frontend side,
+                  all the time I'm doing courses and learning about this area, because I love it!.
+                  <br>
+                  Now I'm part of a group that promotes gender equality and encourages women to
+                  get involved in technology areas its name is <a href="http://www.jointdeveloper.com/" target="_blank">jointDeveloper.</a>
+                  I consider myself an intelligent, persistent person, and passionate about what I'm doing.
+                  I work well in a team but also on my own as I like to set myself goals which I will achieve,
+                  I have good listening and communication skills.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="content">
+                <h2>Skills</h2><br>
+                <div class="contenido">
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>Web development</h4>
+                      <canvas id="myChart" class="chart-aptitudes center"></canvas>
+                      <script>
+                      var ctx = document.getElementById("myChart").getContext("2d");
+                      var data_web = {
+                        labels: [
+                        "HTML",
+                        "CSS"
+                          ],
+                          datasets: [
+                            {
+                              data: [45, 55],
+                              backgroundColor: [
+                                  "#F22613",
+                                  "#4183D7"
+                              ],
+                              hoverBackgroundColor: [
+                                  "#EF4836",
+                                  "#446CB3"
+                              ]
+                        }]
+                      };
+
+                      var myRadarChart = new Chart(ctx, {
+                          type: 'doughnut',
+                          data: data_web,
+                          options: {
+                             scale: {
+                                ticks: {
+                                  beginAtZero: true,
+                                  max: 100
+                              }
+                            }
+                          }
+                      });
+                      </script>
+                    </div>
+                    <div class="col-6">
+                      <h4>Programming</h4>
+                        <canvas id="myChart2" class="chart-aptitudes center"></canvas>
+                        <script>
+                        var ctx = document.getElementById("myChart2").getContext("2d");
+                        var data_web = {
+                          labels: [
+                          "C++",
+                          "C",
+                          "R",
+                          "Python",
+                          "Java"
+                            ],
+                            datasets: [
+                              {
+                                data: [50, 7, 7, 28, 8],
+                                backgroundColor: [
+                                    "#4B77BE",
+                                    "#3A539B",
+                                    "#22A7F0",
+                                    "#ABB7B7",
+                                    "#F89406"
+                                ],
+                                hoverBackgroundColor: [
+                                    "#5C97BF",
+                                    "#5C97BF",
+                                    "#3498DB",
+                                    "#6C7A89",
+                                    "#E87E04"
+                                ]
+                          }]
+                        };
+
+                        var myRadarChart = new Chart(ctx, {
+                            type: 'doughnut',
+                            data: data_web,
+                            options: {
+                               scale: {
+                                  ticks: {
+                                    beginAtZero: true,
+                                    max: 100
+                                }
+                              }
+                            }
+                        });
+                        </script>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section id="achievements">
+            <div class="content">
+                <h2>Achievements</h2><br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -62,22 +172,18 @@
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </section>
-        <section id="experience">
-            <div class="content">
-                <h2>Experience</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </section>
         <footer>
-            <p><i class="fa fa-linux fa-3x"></i></p>
+            <p>"A dream doesn't become reality through magic;
+              <br>
+              it takes sweat, determination and hard work."
+              <br>
+              Colin Powell</p>
         </footer>
     </body>
     <script src="https://use.typekit.net/zoc2jjk.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/js/script.js"></script>
+    <script src="/js/Chart.min.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

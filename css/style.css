@@ -62,13 +62,6 @@ nav.pinned {
     transform: translate(-50%, -50%);
 }
 
-.icon-about-me {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-}
-
 .links {
     position: relative;
     text-align: center;
@@ -102,6 +95,9 @@ nav.pinned {
     height: 90% !important;
 }
 
+.center {
+  text-align: center;
+}
 /* About
 ------------------------------------------------------------ */
 
@@ -114,6 +110,16 @@ nav.pinned {
     color: #f06292;
 }
 
+.init-about {
+  text-align: justify;
+}
+
+.icon-about-me {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+}
 /* Skills
 ------------------------------------------------------------ */
 

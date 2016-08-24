@@ -129,6 +129,12 @@ nav.pinned {
   min-height: 80% !important;
 }
 
+/* Achievements
+------------------------------------------------------------ */
+
+#achievements {
+  text-align: center;
+}
 /* Projects
 ------------------------------------------------------------ */
 
@@ -210,4 +216,16 @@ nav.pinned {
         font-size: 30px;
         padding-top: 17rem;
     }
+}
+
+@media screen and (max-width: 450px) {
+
+  .col-4 {width: 100%;}
+  .col-6 {width: 100%;}
+  h1 { font-size: 40px; }
+  h2 { font-size: 30px; }
+  h4 { font-size: 25px; }
+  h5 { font-size: 20px; }
+  p { font-size: 17px; }
+
 }

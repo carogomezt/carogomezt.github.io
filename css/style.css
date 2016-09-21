@@ -37,7 +37,7 @@ nav.pinned {
     position: relative;
     text-align: center;
     color: white;
-    padding-top: 30%;
+    padding-top: 25%;
     z-index: 2;
 }
 
@@ -57,8 +57,8 @@ nav.pinned {
     background-position: 50%;
     background-size: contain;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     transform: translate(-50%, -50%);
 }
 

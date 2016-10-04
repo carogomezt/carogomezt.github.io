@@ -177,6 +177,12 @@ nav.pinned {
 
 /* Mobile
 ------------------------------------------------------------ */
+@media only screen and (max-width: 1360px) {
+    .hero h1 {
+        padding-top: 25rem;
+    }
+}
+
 @media only screen and (max-width: 980px) {
 
     .hero h1 {

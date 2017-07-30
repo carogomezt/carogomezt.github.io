@@ -31,7 +31,7 @@
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #8D5574 ;
+  background: #1abc9c ;
   color: #fff;
 }
 
@@ -51,7 +51,7 @@
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #8D5574  transparent transparent;
+  border-color: transparent #1abc9c  transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -61,16 +61,24 @@
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #8D5574 ;
+  border-color: transparent transparent transparent #1abc9c ;
 }
 
 time {
   display: block;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
+.a-color{
+  color: #fff;
+  font-weight: bold;
+}
+
+.a-color:hover{
+  color: #a8f3e4;
+}
 
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -80,7 +88,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #8D5574 ;
+  background: #1abc9c ;
 }
 
 .timeline ul li div {
@@ -131,6 +139,6 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #8D5574  transparent transparent;
+    border-color: transparent #1abc9c  transparent transparent;
   }
 }

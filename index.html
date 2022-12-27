@@ -1,488 +1,344 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Carolina Gómez Trejos</title>
-	<!--fonts-->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<!--//fonts-->
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-		<link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-		<link href="css/timeline.css"rel="stylesheet" />
-	<!-- for-mobile-apps -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
-		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!-- //for-mobile-apps -->
-	<!-- js -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-	<!-- js -->
-	<!-- start-smooth-scrolling -->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-	<!-- start-smooth-scrolling -->
+<html lang="en">
 
-</head>
-<body>
-<!-- banner -->
-<div class="banner" id="home">
-	<div class="container">
-		<div class="top-header row">
-			<script src="js/classie.js"></script>
-			<!--top-nav---->
-			<div class="top-nav">
-				<div class="nav-icon">
-					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
-				</div>
-				<div class="box" id="box">
-					<div class="box_content">
-						<div class="box_content_center">
-							<div class="form_content">
-								<div class="menu_box_list">
-									<ul>
-										<li><a class="scroll" href="#home"><span>home</span></a></li>
-										<li><a class="scroll" href="#about"><span>about</span></a></li>
-										<li><a class="scroll" href="#services"><span>services</span></a></li>
-										<li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
-										<li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
-										<li><a class="scroll" href="#blog"><span>blog</span></a></li>
-										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
-										<div class="clearfix"> </div>
-									</ul>
-								</div>
-								<a class="boxclose" id="boxclose"> <span> </span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!---start-click-drop-down-menu----->
-			        <!----start-dropdown--->
-			         <script type="text/javascript">
-						var $ = jQuery.noConflict();
-							$(function() {
-								$('#activator').click(function(){
-									$('#box').animate({'top':'0px'},900);
-								});
-								$('#boxclose').click(function(){
-								$('#box').animate({'top':'-1000px'},900);
-								});
-							});
-							$(document).ready(function(){
-							//Hide (Collapse) the toggle containers on load
-							$(".toggle_container").hide();
-							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
-							$(".trigger").click(function(){
-								$(this).toggleClass("active").next().slideToggle("slow");
-									return false; //Prevent the browser jump to the link anchor
-							});
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Resume - Carolina Gómez T</title>
+		<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+		<!-- Font Awesome icons (free version)-->
+		<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+		<!-- Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+			type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+		<!-- Core theme CSS (includes Bootstrap)-->
+		<link href="css/styles.css" rel="stylesheet" />
+	</head>
 
-						});
-					</script>
-			<!---//End-click-drop-down-menu----->
-			<div class="clearfix"> </div>
-		</div>
-		<div class="banner-info">
-			<div class="banner-left col-md-6">
-				<img class="img-circle"src="images/caro.jpg" alt=""/>
-			</div>
-			<div class="banner-right col-md-6">
-				<h1>CAROLINA GÓMEZ T</h1>
-				<div class="border"></div>
-				<h2>FRONT END DEVELOPER</h2>
-				<a href="/CV_CarolinaGomezTrejos.pdf" target="_blank">DOWNLOAD MY RESUME</a>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--/header-banner-->
-<!--about-->
-<div class="about text-center" id="about">
-	<div class="container">
-		<h3>ACERCA DE MI</h3>
-		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
-		<p>Ingeniera de Sistemas y Computación con énfasis en desarrollo web específicamente
-			en la parte Front End. Cuenta con experiencia en manejo de bases de datos, diseño
-			y análisis de sistemas de información y desarrollo de plantillas para gestores de
-			contenido como WordPress. Capacidad para trabajar en equipo, autoaprendizaje,
-			creatividad e iniciativa.</p>
-		<ul>
-			<li><a href="https://www.facebook.com/Caro.gomez.t">
-				<span class="fa-stack fa-3x icon-bg icon-fb">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-				</span>
-			</a></li>
-			<li><a href="https://twitter.com/caro_gomezt">
-				<span class="fa-stack fa-3x icon-bg icon-tw">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-				</span>
-			</a></li>
-			<li><a href="https://www.linkedin.com/in/carolinagomezt/">
-				<span class="fa-stack fa-3x icon-bg icon-in">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-				</span>
-			</a></li>
-			<li><a href="https://github.com/carogomezt">
-				<span class="fa-stack fa-3x icon-bg icon-gh">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
-				</span>
-			</a></li>
-			<li><a href="mailto:carolina9511@gmail.com" target="_blank">
-				<span class="fa-stack fa-3x icon-bg icon-gm">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-				</span>
-			</a></li>
-		</ul>
-	</div>
-</div>
-<!--//about-->
-<div class="about-back"></div>
-<!--my skill-->
-<div class="my-skills text-center">
-	<div class="container">
-		<h3>MIS HABILIDADES</h3>
-		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
-		<div class="skill-grids">
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-6"></div>
-						<p>HTML / CSS</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-5"></div>
-						<p>Javascript</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-4"></div>
-						<p>Wordpress</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-3"></div>
-						<p>Python</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-2"></div>
-						<p>C++</p>
-					</div>
-					<div class="col-md-2 skills-grid text-center">
-						<div class="circle" id="circles-1"></div>
-						<p>R</p>
-					</div>
-
-					<div class="clearfix"> </div>
-				 <script type="text/javascript" src="js/circles.js"></script>
-					         <script>
-								var colors = [
-										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
-									];
-								for (var i = 1; i <= 7; i++) {
-									var child = document.getElementById('circles-' + i),
-										percentage = (i * 10);
-
-									Circles.create({
-										id:         child.id,
-										percentage: percentage,
-										radius:     80,
-										width:      10,
-										number:   	percentage / 1,
-										text:       '%',
-										colors:     colors[i - 1]
-									});
-								}
-
-				</script>
-		</div>
-	</div>
-</div>
-<!--//my skill-->
-<div class="my-skill-back"></div>
-<!--education-->
-<div class="education text-center">
-	<div class="container">
-		<div class="edu-info">
-			<h3>EDUCACIÓN</h3>
-		</div>
-		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
-		<div class="edu-grids">
-			<div class=" col-md-offset-1 col-md-5 edu-grid">
-				<p>2010 - 2011</p><span>Graduada</span>
-				<img src="images/arrow.png" alt=""/>
-				<div class="edu-border">
-					<div class="edu-grid-master">
-						<h3>TÉCNICO EN DOCUMENTACIÓN Y REGISTRO DE OPERACIONES CONTABLES</h3>
-						<h4>Servicio Nacional de Aprendizaje</h4>
-						<h4>SENA</h4>
-						<h4>Pereira, Risaralda</h4>
-						<h4>Colombia</h4>
-					</div>
-					<!-- <div class="edu-grid-info">
-						<h5>This is Photoshop's version Lorem Ipsum.
-						Well, the way they make shows is, they make one show.</h5>
-					</div> -->
-				</div>
-			</div>
-			<div class="col-md-5 edu-grid">
-				<p>2012 - 2017</p><span>Graduada</span>
-				<img src="images/arrow.png" alt=""/>
-				<div class="edu-border">
-					<div class="edu-grid-master fix-edu-grid-master">
-						<h3>INGENIERA DE SISTEMAS Y COMPUTACIÓN</h3>
-						<h4>Universidad Tecnológica de Pereira</h4>
-						<h4>UTP</h4>
-						<h4>Pereira, Risaralda</h4>
-						<h4>Colombia</h4>
-					</div>
-					<!-- <div class="edu-grid-info">
-						<h5>This is Photoshop's version Lorem Ipsum.
-						Well, the way they make shows is, they make one show.</h5>
-					</div> -->
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//education-->
-<div class="strip-border"><p></p></div>
-<!--work-->
-<div class="work-experience text-center">
-
-	<div class="container">
-		<div class="work-info">
-			<h3>EXPERIENCIA LABORAL</h3>
-		</div>
-		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
-		<div class="work-grids">
-			<div class="col-md-4 w-grid">
-				<div class="work-grid">
-					<h3>Agost. 2016 - Jun. 2017</h3>
-					<div class="work-grid-info">
-						<h4>Grupo de investigación Sirius</h4>
-						<h5>Desarrolladora Front End</h5>
-						<p>Analisis, diseño e implementación de la página
-							oficial del Grupo de Investigación.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 w-grid">
-				<div class="work-grid">
-					<h3>Oct. 2016 - Jun. 2017</h3>
-					<div class="work-grid-info">
-						<h4>Corporación Cultural Ciudad Latente</h4>
-						<h5>Asistente Administrativa</h5>
-						<p>Apoyar en labores administrativas y en la construcción
-							de una base de datos con los agentes del sector cultural
-							de Pereira.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 w-grid">
-				<div class="work-grid">
-					<h3>Mar. 2017 - May. 2017</h3>
-					<div class="work-grid-info">
-						<h4>Gefetic S.A.S</h4>
-						<h5>Desarrolladora Front End</h5>
-						<p>Implementación de plantilla para wordpress.</p>
-					</div>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//work-->
-<div class="services-back"></div>
-
-<!--services-->
-<div class="services text-center" id="services">
-	<div class="container">
-		<div class="ser-info">
-			<h3>ACTIVIDADES EXTRACURRICULARES</h3>
-		</div>
-		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
-		<div class="content">
-			<section class="timeline">
-          <ul>
-						<li class="in-view">
-              <div>
-                <time>2017</time>Data Jam 2017 - Mejor Visualización <a class="a-color" href="http://itperforma.com/data-jam-desarrollo-rural-colombia-2017/" target="_blank">Tableau</a>
-							</div>
-            </li>
-						<li class="in-view">
-              <div>
-                <time>2016</time><a class="a-color" href="http://ghc.anitaborg.org/2016-student-academic/scholarships/2016-ghc-scholars/attachment/carolina-gomez-trejos/" target="_blank">
-									Grace Hopper Celebration Of Women in Computing, Anita Borg Institute, Houston, Texas.
-									<br>
-									Becada</a>
-							</div>
-            </li>
-						<li class="in-view">
-              <div>
-                <time>2016</time> The 2016 ACM-ICPC South America-North Finals. (15 Lugar)
-							</div>
-            </li>
-						<li class="in-view">
-              <div>
-                <time>2016</time> Colombia - XXX Maraton Nacional de Programación ACIS REDIS. <a class="a-color" href="/2016_CertificateContestantPlace_2016_Colombian_Programming_Contest_ACIS_REDIS_302814.pdf" target="_blank">(10 Lugar)</a>
-							</div>
-						</li>
-						<li class="in-view">
-              <div>
-                <time>2016</time> Maratón Interna de Programación Competitiva de la Universidad Tecnológica de Pereira (2 Lugar)
-              </div>
-            </li>
-						<li class="in-view">
-              <div>
-                <time>2016</time> Co-Fundadora de la comunidad y semillero de investigación <a class="a-color" href="http://www.jointdeveloper.com/" target="_blank">jointDeveloper.</a>
-              </div>
-            </li>
-						<li class="in-view">
-              <div>
-                <time>2014</time> Latin America ACM ICPC Regional Contest 2014. South America - North Finals.<a class="a-color" href="/2014_CertificateTeamPlace_South_America-North_178229.pdf" target="_blank">(32 Lugar)</a>
-            </li>
-						<li class="in-view">
-              <div>
-                <time>2014</time> Colombia - XVIII Maraton Nacional de Programación ACIS REDIS. <a class="a-color" href="/2014_CertificateContestantPlace_2014_Colombian_Programming_Contest_ACIS_REDIS_145822.pdf" target="_blank">(18 Lugar)</a>
-              </div>
-            </li>
-            <li class="in-view">
-              <div>
-                <time>2014</time><a class="a-color" href="https://www.facebook.com/9cccutp/?fref=ts" target="_blank">Noveno Congreso Colombiano de Computación - 9CCC</a> (Voluntaria)
-              </div>
-            </li>
-          </ul>
-        </section>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//services-->
-<!--portfolio-->
-<div class="gallery-section text-center" id="portfolio">
-	<div class="container">
-		<h3>PORTAFOLIO</h3>
-		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
-		<div class="gallery-grids">
-			<div class="top-gallery">
-				<div class="col-xs-12 col-md-6 gallery-grid gallery1">
-					<a href="images/aseutp.PNG" class="swipebox"><img src="images/aseutp.PNG" class="img-responsive" alt="/">
-						<div class="textbox">
-							<h4>ASEUTP</h4>
-							<p>DESARROLO WEB EN WORDPRESS</p>
-							<div class="button"><a href="http://aseutp.com/" target="_blank">VIEW</a></div>
-						</div>
-				</div></a>
-				<div class="col-xs-12 col-md-6 gallery-grid gallery1">
-					<a href="images/sirius.PNG" class="swipebox"><img src="images/sirius.PNG" class="img-responsive" alt="/">
-						<div class="textbox">
-							<h4>WEB SIRIUS</h4>
-							<p>DESARROLLO WEB FRONTEND</p>
-							<div class="button"><a href="http://sirius.utp.edu.co/users" target="_blank">VIEW</a></div>
-						</div>
-				</div></a>
-				<div class="clearfix"> </div>
-			</div>
-				<link rel="stylesheet" href="css/swipebox.css">
-				<!-- <script src="js/jquery.swipebox.min.js"></script>
-					<script type="text/javascript">
-						jQuery(function($) {
-							$(".swipebox").swipebox();
-						});
-					</script> -->
-		</div>
-	</div>
-</div>
-<!--
-<!--contact-->
-<!-- <div class="contact" id="contact">
-	<div class="container">
-		<div class="contact-info text-center">
-			<h3>CONTACT</h3>
-			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
-		</div>
-		<div class="contact-grids">
-			<div class="col-md-5 contact-left">
-				<h3>Say Hi to Me</h3>
-				<div class="stripb"></div>
-				<ul>
-					<li>Orchard Park, Long Bennington, </li>
-					<li>Newark, Lincolnshire </li>
-					<li>NG23 5DQ, United Kingdom</li>
-					<li>9876543210</li>
-					<li><a href="mailto:info@example.com">Sebastian@mail.com</a></li>
-					<li><a href="#">www.sebasti.an</a></li>
+	<body id="page-top">
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">
+				<span class="d-block d-lg-none">Carolina Gómez Trejos</span>
+				<span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+						src="assets/img/profile.jpeg" alt="..." /></span>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+					class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+					<!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
 				</ul>
 			</div>
-			<div class="col-md-7 contact-right">
-				<h3>Drop Me A Line</h3>
-				<div class="stripb"></div>
-				<form>
-					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
-					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
-					<input type="submit" value="SEND">
-				</form>
-			</div>
-			<div class="clearfix"></div>
+		</nav>
+		<!-- Page Content-->
+		<div class="container-fluid p-0">
+			<!-- About-->
+			<section class="resume-section" id="about">
+				<div class="resume-section-content">
+					<h1 class="mb-0">
+						Carolina
+						<span class="text-primary">Gómez</span>
+					</h1>
+					<div class="subheading mb-5">
+						Colombia ·
+						<a href="mailto:carolina9511@gmail.com">carolina9511@gmail.com</a>
+					</div>
+					<p class="lead mb-5">Software engineer with more than 5 years of experience in web development
+						using programming languages like Python and JavaScript. Ability to work as a team,
+						self-learning, creativity, and initiative. Passionate about sharing knowledge with
+						others in different spaces like meetups, conferences, and workshops.
+					</p>
+					<h3 class="mb-0">Technical Skills Summary</h3>
+					<p class="lead mb-5">
+						My professional strength and favorite language is Python, and I have been working on different
+						backend projects where I used frameworks and libraries like Flask, Django, Django Rest
+						Framework,
+						Redis, Celery, and Boto3. I also have experience with AWS technologies like DynamoDB, Lambda,
+						SQS,
+						and S3. I have worked with relational databases like Postgres and non-relational databases like
+						DynamoDB,
+						as well as REST APIs and GraphQL. I am also familiar with front end technologies such as
+						HTML/CSS and Javascript;
+						I have some experience with Angular.js and React.js, and I am currently learning Vue. I am very
+						familiar and
+						comfortable with agile methodologies (e.g. Scrum framework). As a hobby, I have learned about
+						Artificial
+						Intelligence and used Numpy, Pandas, and SciPy.
+					</p>
+					<div class="social-icons">
+						<a class="social-icon" href="https://www.linkedin.com/in/carolinagomezt/"><i
+								class="fab fa-linkedin-in"></i></a>
+						<a class="social-icon" href="https://github.com/carogomezt"><i class="fab fa-github"></i></a>
+					</div>
+				</div>
+			</section>
+			<hr class="m-0" />
+			<!-- Experience-->
+			<section class="resume-section" id="experience">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Experience</h2>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Senior Backend Developer</h3>
+							<div class="subheading mb-3">Gorilla Logic</div>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">December 2022 - Present</span></div>
+					</div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Backend Developer Consultant</h3>
+							<div class="subheading mb-3">Gorilla Logic</div>
+							<p>I worked on a project consisting of different internal tools that support an ETL.
+								This project was built using Django and some of my contributions were the following:
+							</p>
+							<ul>
+								<li>Implementation of new features requested by users.</li>
+								<li>Maintenance of loading tasks.</li>
+								<li>Adding new validations to ensure data integrity.</li>
+								<li>Led the migration process to merge data of two different accounts of Intercom.</li>
+								<li>Adjusted the current library implementation to enable loading multiple files within
+									the same
+									FormView in Django.</li>
+								<li>Improving the styling of the application using different internal and external
+									components.</li>
+								<li>Creation of GitHub Actions to run automated processes.</li>
+								<li>Creation of multiple FormWizards to automate follow-up steps used after the loading
+									phase of
+									the ETL.</li>
+								<li>Diagnose and troubleshoot multiple bugs.</li>
+							</ul>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">May 2021 - December 2022</span></div>
+					</div>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Semi Senior Advanced Python Developer</h3>
+							<div class="subheading mb-3">Globant</div>
+							<p>I worked on two different projects with customers of the entertainment industry
+								developing and maintaining solutions for its web platforms. Some of my contributions
+								were the following:</p>
+							<ul>
+								<li>Created Lambdas in AWS to send information to old services.</li>
+								<li>Created an integration with a federated Apollo service with GraphQL.</li>
+								<li>Implemented different CRUDS to expose internal information.</li>
+								<li>Supported the integration with different third parties services in Lambdas of AWS.
+								</li>
+								<li>Migrated from an old version of an ElasticSearch Cluster to a new one.</li>
+								<li>Migrations of services from python 2.7 to python 3.6.</li>
+							</ul>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">July 2019 - May 2021</span></div>
+					</div>
+					<div class="d-flex flex-column flex-md-row justify-content-between">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Security Developer</h3>
+							<div class="subheading mb-3">Fluid Signal Group</div>
+							<ul>
+								<li>
+									Migrated a module with data in a relational database to a non-relational database to
+									improve the access to the data of the principal product of the company. </li>
+								<li>
+									Made substantial contributions to improve the app performance on the backend side,
+									optimizing the code and reducing the number of requests per module.
+								</li>
+							</ul>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">November 2017 - July 2019</span></div>
+					</div>
+				</div>
+			</section>
+			<hr class="m-0" />
+			<!-- Education-->
+			<section class="resume-section" id="education">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Education</h2>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Universidad Nacional de Colombia</h3>
+							<div class="subheading mb-3">PGCert. Artificial Intelligence</div>
+
+							<p>Specialization course focused on the theoretical and practical fundamentals of Artificial
+								Intelligence using Machine Learning, Deep Learning, and Expert systems.
+							</p>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">2020 - 2021</span></div>
+					</div>
+					<div class="d-flex flex-column flex-md-row justify-content-between">
+						<div class="flex-grow-1">
+							<h3 class="mb-0">Universidad Tecnológica de Pereira</h3>
+							<div class="subheading mb-3">BS. Systems and Computer Engineering</div>
+							<p>Professional in areas of computer science with an emphasis on programming and knowledge
+								of different technologies of High-Performance Computing. Outstanding student who
+								represented the university in different national competitive programming competencies.
+							</p>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">2012 - 2017</span></div>
+					</div>
+				</div>
+			</section>
+			<hr class="m-0" />
+			<!-- Skills-->
+			<section class="resume-section" id="skills">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Skills</h2>
+					<div class="subheading mb-3">Languages</div>
+					<ul class="fa-ul">
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Spanish (native speaker)
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							English (B2)
+						</li>
+					</ul>
+					<div class="subheading mb-3">Soft Skills</div>
+					<ul class="fa-ul">
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Leadership
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Problem solving
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Collaboration
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Organization skills
+						</li>
+					</ul>
+					<div class="subheading mb-3">Software and Technical Skills</div>
+					<ul class="fa-ul">
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Git
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Django
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Flask
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							GraphQL
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							AWS (DynamoDB, Lambda, SQS)
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							HTML/CSS
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							NodeJS
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Algorithms
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-check"></i></span>
+							Scrum
+						</li>
+					</ul>
+					<div class="subheading mb-3">Programming Languages</div>
+					<ul class="list-inline dev-icons mb-0">
+						<li class="list-inline-item"><i class="fab fa-python"></i></li>
+						<li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+					</ul>
+				</div>
+			</section>
+			<hr class="m-0" />
+			<!-- Interests-->
+			<!-- 
+			<section class="resume-section" id="interests">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Interests</h2>
+					<p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an
+						avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain
+						biking, free climbing, and kayaking.</p>
+					<p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and
+						television shows, I am an aspiring chef, and I spend a large amount of my free time exploring
+						the latest technology advancements in the front-end web development world.</p>
+				</div>
+			</section> -->
+			<hr class="m-0" />
+			<!-- Awards-->
+			<section class="resume-section" id="awards">
+				<div class="resume-section-content">
+					<h2 class="mb-5">Awards & Certifications</h2>
+					<ul class="fa-ul mb-0">
+						<li>
+							<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+							Women In Leadership Certification 2022
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+							Data Scientist Nanodegree - Udacity Certification 2021
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+							Grace Hopper Celebration of Women in Computing Scholarship 2016
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+							15
+							<sup>th</sup>
+							Place - The 2016 ACM-ICPC South America-North Finals. 2016
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+							10
+							<sup>th</sup>
+							Place - Colombia - XXX Maraton Nacional de Programación ACIS REDIS. 2016
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+							2
+							<sup>nd</sup>
+							Place - Maratón Interna de Programación Competitiva de la Universidad Tecnológica de
+							Pereira. 2016
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+							32
+							<sup>nd</sup>
+							Place - Latin America ACM ICPC Regional Contest 2014. South America - North Finals. 2014
+						</li>
+						<li>
+							<span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+							18
+							<sup>th</sup>
+							Place - Colombia - XVIII Maraton Nacional de Programación ACIS REDIS. 2014
+						</li>
+
+					</ul>
+				</div>
+			</section>
 		</div>
-	</div>
-</div>
-<!--//contact-->
-<!-- <div class="footer-top"></div>
-<!--resume-->
-<!-- <div class="resume text-center">
-	<div class="container">
-		<div class="strip text-center"><a href="CV_CarolinaGomezTrejos.pdf"><img src="images/down.png" alt=" "/></a></div>
-		<div class="down"><a href="#">Download My Resume</a></div>
-	</div>
-</div> -->
-<!--//resume-->
+		<!-- Bootstrap core JS-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Core theme JS-->
+		<script src="js/scripts.js"></script>
+	</body>
 
-<!--footer-->
-<div class="footer">
-	<div class="container">
-		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
-	</div>
-</div>
-<!--//footer-->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-			*/
-
-			$().UItoTop({ easingType: 'easeOutQuart' });
-
-			});
-	</script>
-<!-- //here ends scrolling icon -->
-</body>
 </html>
